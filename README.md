@@ -30,7 +30,10 @@ php artisan migrate
 php artisan db:seed
 ```
 
-## Factory users (run before `php artisan tinker`)
+## Factory users
+
+run before `php artisan tinker`
+
 ```
 $users = factory(App\User::class, 3)->make();
 ```
